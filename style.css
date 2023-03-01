@@ -41,8 +41,8 @@ padding-left: 400px;
       .producto__image {
         width: 200px;
         height: 300px;
-        max-width: 100%
-        object-fit 100%
+        max-width: 100%;
+        object-fit: 100%;
     }
      
  
@@ -60,3 +60,15 @@ h3{
 p1{
     padding-left: 45px;;
 }
+
+
+.menu__inferior{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menu__infer{
+    display:flex;
+    justify-content: space-between;
+    margin: 40px;
+    }
